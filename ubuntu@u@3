@@ -1,0 +1,9 @@
+[program:telegrambot]
+directory=/home/version2
+command=python3 app.py
+
+
+autostart=true
+autorestart=true
+stderr_Logfile=/home/version2/logfile_err.log
+stdout_logfile=/home/version2/logfile.log
